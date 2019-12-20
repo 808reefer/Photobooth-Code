@@ -45,7 +45,7 @@ num = {' ':(0,0,0,0,0,0,0),
  
 def button_callback(channel): #function is called when the button push is detected
    
-    for i in range(4):
+    for i in range(4): 
         time.sleep(3) #short pause before the countdown begins, some time to pose!
         n = 321 #what is shown on the 7 segment display
         s = str(n).rjust(4)
