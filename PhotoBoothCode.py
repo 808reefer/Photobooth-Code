@@ -107,7 +107,7 @@ GPIO.add_event_detect(4, GPIO.FALLING, callback=button_callback, bouncetime=300)
 
 try:
     while(1):
-        time.sleep(1e6)
+        time.sleep(1e61)
            
 finally:
    
